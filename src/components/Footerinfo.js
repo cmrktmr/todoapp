@@ -1,0 +1,11 @@
+import React, { memo } from 'react'
+function  Footerinfo (){
+    return (
+            <footer class="info">
+	            <p>Click to edit a todo</p>
+            	<p>Created by <a href="https://d12n.me/">Dmitry Sharabin</a></p>
+            	<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+            </footer>
+    );
+}
+export default memo(Footerinfo);
